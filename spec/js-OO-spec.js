@@ -37,8 +37,8 @@ describe("Bike", function() {
   });
 
   it("should have a frame and a color", function () {
-    expect(fabrizio.frameColor).toBe("red");
-    expect(george.frameColor).toBe("blue");
+    expect(fabrizio.color).toBe("red");
+    expect(george.color).toBe("blue");
   });
 
   it("should have two wheels", function () {
@@ -46,8 +46,8 @@ describe("Bike", function() {
   })
 
   it("should know what type of bike it is", function() {
-    expect(fabrizio.bikeType).toBe("roadbike");
-    expect(george.bikeType).toBe("mountain bike");
+    expect(fabrizio.type).toBe("roadbike");
+    expect(george.type).toBe("mountain bike");
   });
 
   it("should know about it's condition", function() {
